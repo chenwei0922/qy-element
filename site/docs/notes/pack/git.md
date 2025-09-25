@@ -41,14 +41,34 @@ git restore src/pages/Home
 
 
 ## 初始化仓库
+### 新建仓库
 ```shell
-git init
-git add .
-git commit -m "first commit"
+git clone <repo_url>
+cd <dir_name>
+git switch --create main
+touch README.md
+git add README.md
+git commit -m "add README"
+git push --set-upstream origin main
+```
+### 存在项目目录
+```shell
+cd <dir_name>
+git init --initial-branch=main
 git remote add origin <repo_url>
-fatal: remote origin already exists.出现类似错误,则执行下一句，否则最后一句
-git remote rm origin
-git push origin master
+git add .
+git commit -m "initial commit"
+git push --set-upstream origin main
+```
+### 存在远端仓库
+```shell
+cd <repo_name>
+# 移除原有或者重命名，二选一
+# git remote rm origin
+git remote rename origin old-origin
+git remote add origin <repo_url>
+git push --set-upstream origin --all
+git push --set-upstream origin --tags
 ```
 
 ## 回退版本
@@ -95,10 +115,29 @@ git push origin master
 
 ## 撤销`add`
 - `git restore --staged <file>`  撤销某个文件的 `add`
+- `git reset -- <file>` 撤销指定文件
+- `git reset -- .` 撤销所有文件
+  
+## 撤销所有未add文件的变更
+- `git checkout -- .`
+
+## 将项目中指定目录发布到特定分支
+```bash
+git subtree split -P <dir> -b <branch>
+git push <repo_url> <branch>
+```
+
+## 设置`global`用户信息
+```shell
+git config --global user.name "your_name"
+git config --golobal user.email "email_address"
+```
 
 ## 设置`git`正确识别中文文件名
 ```bash
 git config --global core.quotepath false
 git config --global gui.encoding utf-8
 git config --global i18n.commitEncoding utf-8
+
+
 ```
