@@ -25,7 +25,7 @@ export default defineConfig({
   // 根目录
   base: '/qy-element/',
   dest: 'public',
-  //md --> html
+  // md --> html
   async buildEnd(siteConfig) {
     // 配置网站基础路径
     const baseURL = 'https://blog.clover.cn'
@@ -112,8 +112,10 @@ export default defineConfig({
     },
     // 导航栏配置
     nav: [
+      { text: '图标库', link: 'https://chenwei0922.github.io/chen-svg-icon/#/' },
       { text: '图表', link: 'https://chenwei0922.github.io/echart-example/' },
-      { text: '组件', link: '/guide/installation' },
+      { text: 'rn组件', link: 'https://chenwei0922.github.io/rn-ui/index.html' },
+      { text: 'vue3组件', link: '/guide/installation' },
       {
         text: '笔记',
         items: [
