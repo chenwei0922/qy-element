@@ -1,5 +1,5 @@
 // 需要动态导入一下，不然build的时候，图标不显示，因为图标文件未被打包
-import('@chenwei02/qy-element/_virtual/virtual_svg-icons-register')
+// import('@chenwei02/qy-element/_virtual/virtual_svg-icons-register')
 import DefaultTheme from 'vitepress/theme'
 // import QyElement from '@chenwei02/element'
 import QyElement from '@chenwei02/qy-element'
