@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@algolia/client-search": "^4.16.0",
-    "@chenwei02/qy-element": "workspace:^1.0.0",
+    "@chenwei02/qy-element": "1.0.2-p2",
     "@chenwei02/vue-icon": "0.0.1-patch-1",
     "@giscus/vue": "^3.0.0",
     "vue": "^3.2.47"
