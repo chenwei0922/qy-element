@@ -1,0 +1,1 @@
+import{d as n,h as s,E as u,b as l,o as p}from"./framework.DWfCr0f0.js";const i=n({__name:"textarea-autosize",setup(r){const e=s("");return(m,t)=>{const o=u("qy-input");return p(),l(o,{modelValue:e.value,"onUpdate:modelValue":t[0]||(t[0]=a=>e.value=a),type:"textarea",autosize:""},null,8,["modelValue"])}}});export{i as default};

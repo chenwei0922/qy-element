@@ -1,0 +1,1 @@
+import{d as t,h as a,E as p,b as l,o as r}from"./framework.DWfCr0f0.js";const _=t({__name:"password",setup(u){const e=a("123456");return(m,o)=>{const n=p("qy-input");return r(),l(n,{modelValue:e.value,"onUpdate:modelValue":o[0]||(o[0]=s=>e.value=s),"show-password":""},null,8,["modelValue"])}}});export{_ as default};

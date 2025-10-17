@@ -1,0 +1,1 @@
+import{d as a,h as l,E as p,b as s,o as u}from"./framework.DWfCr0f0.js";const _=a({__name:"basic",setup(r){const e=l("");return(m,o)=>{const n=p("qy-input");return u(),s(n,{modelValue:e.value,"onUpdate:modelValue":o[0]||(o[0]=t=>e.value=t),placeholder:"Please input"},null,8,["modelValue"])}}});export{_ as default};

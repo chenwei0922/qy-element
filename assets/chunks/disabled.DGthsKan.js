@@ -1,1 +1,0 @@
-import{d as a,h as l,E as s,o as p,b as u}from"./framework.BQjydDc4.js";const _=a({__name:"disabled",setup(d){const e=l("");return(r,o)=>{const n=s("qy-input");return p(),u(n,{modelValue:e.value,"onUpdate:modelValue":o[0]||(o[0]=t=>e.value=t),disabled:""},null,8,["modelValue"])}}});export{_ as default};

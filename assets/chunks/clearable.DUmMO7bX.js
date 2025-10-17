@@ -1,0 +1,1 @@
+import{d as a,h as t,E as r,b as p,o as s}from"./framework.DWfCr0f0.js";const _=a({__name:"clearable",setup(u){const e=t("hello world");return(m,o)=>{const l=r("qy-input");return s(),p(l,{modelValue:e.value,"onUpdate:modelValue":o[0]||(o[0]=n=>e.value=n),clearable:""},null,8,["modelValue"])}}});export{_ as default};

@@ -1,0 +1,1 @@
+import{d as a,h as l,E as p,b as r,o as s}from"./framework.DWfCr0f0.js";const c=a({__name:"textarea",setup(u){const e=l("");return(m,o)=>{const t=p("qy-input");return s(),r(t,{modelValue:e.value,"onUpdate:modelValue":o[0]||(o[0]=n=>e.value=n),type:"textarea",rows:4},null,8,["modelValue"])}}});export{c as default};

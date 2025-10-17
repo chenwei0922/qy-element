@@ -1,0 +1,1 @@
+import{d as a,h as c,E as s,c as t,o as l,J as o,F as r}from"./framework.DWfCr0f0.js";const i=a({__name:"basic",setup(m){const e=c("close");return(_,p)=>{const n=s("qy-icon");return l(),t(r,null,[o(n,{name:e.value},null,8,["name"]),o(n,{name:e.value,color:"red"},null,8,["name"])],64)}}});export{i as default};

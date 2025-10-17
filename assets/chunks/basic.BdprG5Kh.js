@@ -1,1 +1,0 @@
-import{d as a,h as l,E as p,o as s,b as u}from"./framework.BQjydDc4.js";const _=a({__name:"basic",setup(r){const e=l("");return(m,o)=>{const n=p("qy-input");return s(),u(n,{modelValue:e.value,"onUpdate:modelValue":o[0]||(o[0]=t=>e.value=t),placeholder:"Please input"},null,8,["modelValue"])}}});export{_ as default};

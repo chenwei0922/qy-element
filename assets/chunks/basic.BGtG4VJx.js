@@ -1,1 +1,0 @@
-import{d as a,h as c,E as s,o as t,c as l,J as o,F as r}from"./framework.BQjydDc4.js";const i=a({__name:"basic",setup(m){const e=c("close");return(_,p)=>{const n=s("qy-icon");return t(),l(r,null,[o(n,{name:e.value},null,8,["name"]),o(n,{name:e.value,color:"red"},null,8,["name"])],64)}}});export{i as default};
