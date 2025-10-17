@@ -74,7 +74,8 @@
       "ignoreMissing": [
         "vite",
         "react",
-        "react-dom"
+        "react-dom",
+        "@algolia/client-search"
       ]
     }
   },
