@@ -112,10 +112,19 @@ export default defineConfig({
     },
     // 导航栏配置
     nav: [
+      {
+        text: '可视化', items: [
+          { text: 'ECharts', link: 'https://chenwei0922.github.io/echart-example/' },
+          { text: 'D3.js', link: 'https://chenwei0922.github.io/react-next-app/d3/' }
+        ]
+      },
+      {
+        text: '组件', items: [
+          { text: 'vue3组件', link: '/guide/installation' },
+          { text: 'rn组件', link: 'https://chenwei0922.github.io/rn-ui/index.html' }
+        ]
+      },
       { text: '图标库', link: 'https://chenwei0922.github.io/chen-svg-icon/#/' },
-      { text: '图表', link: 'https://chenwei0922.github.io/echart-example/' },
-      { text: 'rn组件', link: 'https://chenwei0922.github.io/rn-ui/index.html' },
-      { text: 'vue3组件', link: '/guide/installation' },
       {
         text: '笔记',
         items: [
