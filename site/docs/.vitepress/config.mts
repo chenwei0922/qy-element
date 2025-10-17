@@ -2,13 +2,13 @@ import { defineConfig } from 'vitepress'
 import fs from 'fs'
 import path from 'path'
 import mdContainer from 'markdown-it-container'
-import { docRoot } from '@chenwei02/build-utils'
 import { getHighlighter } from 'shiki'
 import { fileURLToPath } from 'url'
 // https://vitepress.dev/reference/site-config
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+const docRoot = path.resolve(__dirname, '../')
 const demoComponentsPath = path.resolve(__dirname, '../vitepress/vp-demo.vue')
 console.log(demoComponentsPath)
 
@@ -113,13 +113,15 @@ export default defineConfig({
     // 导航栏配置
     nav: [
       {
-        text: '可视化', items: [
+        text: '可视化',
+        items: [
           { text: 'ECharts', link: 'https://chenwei0922.github.io/echart-example/' },
           { text: 'D3.js', link: 'https://chenwei0922.github.io/react-next-app/d3/' }
         ]
       },
       {
-        text: '组件', items: [
+        text: '组件',
+        items: [
           { text: 'vue3组件', link: '/guide/installation' },
           { text: 'rn组件', link: 'https://chenwei0922.github.io/rn-ui/index.html' }
         ]
